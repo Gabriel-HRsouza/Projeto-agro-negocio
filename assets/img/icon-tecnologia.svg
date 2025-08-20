@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tecnoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#2980b9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fundo -->
+  <circle cx="60" cy="60" r="50" fill="url(#tecnoGradient)" opacity="0.2"/>
+  
+  <!-- Tablet/Dispositivo -->
+  <rect x="30" y="30" width="60" height="45" rx="3" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+  <rect x="35" y="35" width="50" height="30" fill="#34495e"/>
+  
+  <!-- Gráfico na tela -->
+  <polyline points="40,55 45,50 50,52 55,45 60,48 65,40" stroke="#2ecc71" stroke-width="2" fill="none"/>
+  <polyline points="40,60 45,58 50,60 55,56 60,59 65,55" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  
+  <!-- Campo agrícola abaixo -->
+  <rect x="20" y="75" width="80" height="15" fill="#27ae60"/>
+  <g stroke="#1e8449" stroke-width="1">
+    <path d="M30,75 L30,90" />
+    <path d="M40,75 L40,90" />
+    <path d="M50,75 L50,90" />
+    <path d="M60,75 L60,90" />
+    <path d="M70,75 L70,90" />
+    <path d="M80,75 L80,90" />
+    <path d="M90,75 L90,90" />
+  </g>
+  
+  <!-- Drone -->
+  <circle cx="85" cy="40" r="5" fill="#7f8c8d"/>
+  <line x1="80" y1="40" x2="75" y2="35" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="90" y1="40" x2="95" y2="35" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="80" y1="40" x2="75" y2="45" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="90" y1="40" x2="95" y2="45" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Texto -->
+  <text x="60" y="115" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c3e50" text-anchor="middle">TECNOLOGIA NO CAMPO</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1b5e20;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="pattern1" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M0,30 L30,0 L60,30 L30,60 Z" fill="none" stroke="#b2ff59" stroke-width="1" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)"/>
+  <rect width="100%" height="100%" fill="url(#pattern1)"/>
+  
+  <!-- Elementos decorativos representando agricultura -->
+  <g opacity="0.15" fill="#ffffff">
+    <!-- Representação estilizada de plantações -->
+    <path d="M100,700 C150,650 200,700 250,650 C300,700 350,650 400,700 C450,650 500,700 550,650 C600,700 650,650 700,700 C750,650 800,700 850,650 C900,700 950,650 1000,700 C1050,650 1100,700 1150,650 L1200,700 L1200,800 L0,800 L0,700 L50,650 L100,700 Z"/>
+    
+    <!-- Representação estilizada de árvores -->
+    <circle cx="200" cy="500" r="50"/>
+    <circle cx="180" cy="450" r="40"/>
+    <circle cx="220" cy="450" r="40"/>
+    <rect x="195" y="500" width="10" height="100"/>
+    
+    <circle cx="900" cy="400" r="60"/>
+    <circle cx="870" cy="340" r="50"/>
+    <circle cx="930" cy="340" r="50"/>
+    <rect x="895" y="400" width="10" height="120"/>
+    
+    <circle cx="500" cy="300" r="40"/>
+    <circle cx="480" cy="260" r="30"/>
+    <circle cx="520" cy="260" r="30"/>
+    <rect x="495" y="300" width="10" height="80"/>
+  </g>
+  
+  <!-- Sol estilizado -->
+  <circle cx="1000" cy="200" r="80" fill="#b2ff59" opacity="0.6"/>
+  <circle cx="1000" cy="200" r="60" fill="#ffffff" opacity="0.4"/>
+</svg>

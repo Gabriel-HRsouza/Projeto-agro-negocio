@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Mato Grosso</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="Logo Agro MT" style="height: 80px;">
+      </div>
+
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="login-button">
+        <button>Entrar</button>
+      </div>
+
+      <div class="mobile-menu-icon">
+        <button><img class="icon menu-icon" src="assets/img/menu_white_36dp.svg" alt="Menu">
+        <img class="icon close-icon" src="assets/img/close_white_36dp.svg" alt="Fechar" style="display: none;"></button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+
+      <div class="login-button">
+        <button>Entrar</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Agronegócio de Mato Grosso</h1>
+      <p>Conectando produtores, tecnologia e sustentabilidade para o futuro do agro</p>
+      <a href="#servicos" class="cta-button">Conheça nossos serviços</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre-section">
+    <div class="container">
+      <h2>Sobre o Agronegócio MT</h2>
+      <div class="sobre-content">
+        <div class="sobre-text">
+          <p>O <strong>Agronegócio de Mato Grosso</strong> é referência nacional e internacional na produção de grãos, carne e outros produtos agrícolas. Nosso estado é o maior produtor de soja, milho e algodão do Brasil, além de possuir o maior rebanho bovino do país.</p>
+          <p>Nossa plataforma conecta produtores rurais, fornecedores de insumos, empresas de tecnologia agrícola e compradores, criando um ecossistema completo para o desenvolvimento do agronegócio mato-grossense.</p>
+          <p>Trabalhamos com foco em sustentabilidade, inovação e eficiência, garantindo que o agronegócio de Mato Grosso continue crescendo de forma responsável e rentável.</p>
+        </div>
+        <div class="sobre-image">
+          <img src="assets/img/agro-mt.svg" alt="Agronegócio Mato Grosso">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos-section">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
+      <div class="servicos-grid">
+        <div class="servico-card">
+          <img src="assets/img/icon-consultoria.svg" alt="Consultoria">
+          <h3>Consultoria Agrícola</h3>
+          <p>Orientação técnica especializada para aumentar a produtividade da sua lavoura.</p>
+        </div>
+        <div class="servico-card">
+          <img src="assets/img/icon-tecnologia.svg" alt="Tecnologia">
+          <h3>Tecnologia no Campo</h3>
+          <p>Soluções tecnológicas para monitoramento e gestão da produção agrícola.</p>
+        </div>
+        <div class="servico-card">
+          <img src="assets/img/icon-mercado.svg" alt="Mercado">
+          <h3>Acesso ao Mercado</h3>
+          <p>Conexão direta com compradores nacionais e internacionais para seus produtos.</p>
+        </div>
+        <div class="servico-card">
+          <img src="assets/img/icon-sustentabilidade.svg" alt="Sustentabilidade">
+          <h3>Agricultura Sustentável</h3>
+          <p>Práticas e certificações para uma produção ambientalmente responsável.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato-section">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <div class="contato-content">
+        <div class="contato-form">
+          <form id="formulario-contato" action="https://formsubmit.co/henrique.souzatt54@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Novo contato do site Agro MT">
+            <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+            <input type="hidden" name="_captcha" value="false">
+            
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone">
+            </div>
+            
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Enviar mensagem</button>
+          </form>
+        </div>
+        
+        <div class="contato-info">
+          <div class="info-item">
+            <h3>Localização</h3>
+            <p>Avenida Marechal Rondon, 1000</p>
+            <p>Cuiabá - MT</p>
+          </div>
+          
+          <div class="info-item">
+            <h3>Contato</h3>
+            <p>Email: v74818348@gmail.com</p>
+            <p><p>Email: agromtnonegocio@gmail.com </p>
+            <p>Telefone: (65) 3402-7812</p>
+          </div>
+          
+          <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15356.288851199608!2d-56.09966565!3d-15.6014543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1e673d55555%3A0x4bb26700f6ccf75!2sAv.%20Mal.%20Rondon%2C%20Cuiab%C3%A1%20-%20MT!5e0!3m2!1spt-BR!2sbr!4v1692566789012!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/img/logo.svg" alt="Logo Agro MT" style="height: 60px;">
+          <p>Agronegócio de Mato Grosso</p>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-social">
+          <h3>Redes Sociais</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><img src="assets/img/icon-facebook.svg" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="assets/img/icon-instagram.svg" alt="Instagram"></a>
+            <a href="#" class="social-icon"><img src="assets/img/icon-linkedin.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Cuiabá-MT</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de Login -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">E-mail</label>
+          <input type="email" id="login-email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="login-senha">Senha</label>
+          <input type="password" id="login-senha" required>
+        </div>
+        
+        <button type="submit" class="submit-button">Entrar</button>
+      </form>
+      
+      <p class="modal-link">Não tem uma conta? <a href="#" id="cadastro-link">Cadastre-se</a></p>
+      <button class="close-button">Fechar</button>
+    </div>
+  </div>
+
+  <!-- Modal de Cadastro -->
+  <div id="cadastro-modal" class="modal">
+    <div class="modal-content">
+      <h2>Cadastro</h2>
+      <form id="cadastro-form">
+        <div class="form-group">
+          <label for="cadastro-nome">Nome completo</label>
+          <input type="text" id="cadastro-nome" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="cadastro-email">E-mail</label>
+          <input type="email" id="cadastro-email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="cadastro-telefone">Telefone</label>
+          <input type="tel" id="cadastro-telefone">
+        </div>
+        
+        <div class="form-group">
+          <label for="cadastro-senha">Senha</label>
+          <input type="password" id="cadastro-senha" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="cadastro-confirmar-senha">Confirmar senha</label>
+          <input type="password" id="cadastro-confirmar-senha" required>
+        </div>
+        
+        <button type="submit" class="submit-button">Cadastrar</button>
+      </form>
+      
+      <p class="modal-link">Já tem uma conta? <a href="#" id="login-link">Faça login</a></p>
+      <button class="close-button">Fechar</button>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

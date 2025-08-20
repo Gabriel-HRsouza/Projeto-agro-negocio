@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <style>
+    .text { font-family: 'Arial', sans-serif; font-weight: bold; }
+    .main-text { fill: #ffffff; font-size: 24px; }
+    .sub-text { fill: #b2ff59; font-size: 14px; }
+    .leaf { fill: #b2ff59; }
+  </style>
+  <g>
+    <path class="leaf" d="M40,15 C35,10 25,10 20,15 C15,20 15,30 20,35 C25,40 35,40 40,35 C45,30 45,20 40,15 Z M30,32 C27,32 25,30 25,27 C25,24 27,22 30,22 C33,22 35,24 35,27 C35,30 33,32 30,32 Z" />
+    <text x="55" y="30" class="text main-text">AGRO MT</text>
+    <text x="55" y="45" class="text sub-text">AGRONEGÓCIO MATO GROSSO</text>
+  </g>
+</svg>

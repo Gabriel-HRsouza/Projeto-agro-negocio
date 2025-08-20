@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mercadoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f39c12"/>
+      <stop offset="100%" stop-color="#d35400"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fundo -->
+  <circle cx="60" cy="60" r="50" fill="url(#mercadoGradient)" opacity="0.2"/>
+  
+  <!-- Globo -->
+  <circle cx="60" cy="55" r="25" fill="#3498db" opacity="0.7"/>
+  <ellipse cx="60" cy="55" rx="25" ry="10" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+  <path d="M35,55 C35,55 45,70 60,70 C75,70 85,55 85,55 C85,55 75,40 60,40 C45,40 35,55 35,55 Z" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+  <line x1="60" y1="30" x2="60" y2="80" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <!-- Setas de comércio -->
+  <path d="M30,60 L20,60 L25,55 Z" fill="#27ae60"/>
+  <path d="M30,60 L20,60 L25,65 Z" fill="#27ae60"/>
+  <line x1="30" y1="60" x2="45" y2="60" stroke="#27ae60" stroke-width="2"/>
+  
+  <path d="M90,50 L100,50 L95,45 Z" fill="#e74c3c"/>
+  <path d="M90,50 L100,50 L95,55 Z" fill="#e74c3c"/>
+  <line x1="90" y1="50" x2="75" y2="50" stroke="#e74c3c" stroke-width="2"/>
+  
+  <!-- Sacas de grãos -->
+  <path d="M40,85 L40,95 C40,98 45,98 45,95 L45,85 Z" fill="#f1c40f" stroke="#7f8c8d" stroke-width="1"/>
+  <path d="M50,80 L50,95 C50,98 55,98 55,95 L55,80 Z" fill="#f1c40f" stroke="#7f8c8d" stroke-width="1"/>
+  <path d="M60,85 L60,95 C60,98 65,98 65,95 L65,85 Z" fill="#f1c40f" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Texto -->
+  <text x="60" y="115" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c3e50" text-anchor="middle">ACESSO AO MERCADO</text>
+</svg>

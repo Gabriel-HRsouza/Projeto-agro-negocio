@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e8449"/>
+      <stop offset="100%" stop-color="#27ae60"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#logoGradient)">
+    <path d="M20,15 h30 a15,15 0 0 1 0,30 h-15 v15 h-15 z"/>
+    <circle cx="75" cy="30" r="15"/>
+    <path d="M95,15 h15 v45 h-15 z"/>
+    <path d="M115,15 h30 a15,15 0 0 1 0,30 h-15 v15 h-15 z"/>
+  </g>
+  <text x="20" y="70" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">AGRO MATO GROSSO</text>
+  <path d="M160,20 c5,0 10,5 10,10 s-5,10 -10,10 s-10,-5 -10,-10 s5,-10 10,-10 z M160,25 c-2.5,0 -5,2.5 -5,5 s2.5,5 5,5 s5,-2.5 5,-5 s-2.5,-5 -5,-5 z" fill="#f1c40f"/>
+  <path d="M170,15 c0,0 5,5 5,15 s-5,15 -5,15" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <path d="M175,15 c0,0 5,5 5,15 s-5,15 -5,15" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <path d="M180,15 c0,0 5,5 5,15 s-5,15 -5,15" stroke="#27ae60" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="consultoriaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#2ecc71"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fundo -->
+  <circle cx="60" cy="60" r="50" fill="url(#consultoriaGradient)" opacity="0.2"/>
+  
+  <!-- Prancheta -->
+  <rect x="35" y="25" width="50" height="70" rx="3" fill="#f5f5f5" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="35" y="25" width="50" height="15" rx="3" fill="#2c3e50"/>
+  <rect x="45" y="50" width="30" height="2" fill="#7f8c8d"/>
+  <rect x="45" y="60" width="30" height="2" fill="#7f8c8d"/>
+  <rect x="45" y="70" width="30" height="2" fill="#7f8c8d"/>
+  
+  <!-- Planta -->
+  <path d="M75,40 C80,35 85,40 85,45 C85,50 80,55 75,50 L75,60" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <path d="M75,45 C70,40 65,45 65,50 C65,55 70,60 75,55" stroke="#27ae60" stroke-width="2" fill="none"/>
+  <rect x="74" y="60" width="2" height="10" fill="#27ae60"/>
+  
+  <!-- Lupa -->
+  <circle cx="40" cy="85" r="12" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="48" y1="93" x2="55" y2="100" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- Texto -->
+  <text x="60" y="115" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c3e50" text-anchor="middle">CONSULTORIA AGRÍCOLA</text>
+</svg>

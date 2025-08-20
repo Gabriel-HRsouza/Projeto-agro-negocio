@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="fieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#795548"/>
+      <stop offset="100%" stop-color="#5D4037"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Céu -->
+  <rect x="0" y="0" width="500" height="150" fill="url(#skyGradient)"/>
+  
+  <!-- Sol -->
+  <circle cx="400" cy="70" r="40" fill="#FFC107"/>
+  <circle cx="400" cy="70" r="50" fill="#FFC107" opacity="0.3"/>
+  
+  <!-- Montanhas -->
+  <path d="M0,150 L100,80 L150,120 L200,70 L250,110 L300,60 L350,100 L400,50 L450,90 L500,70 L500,150 Z" fill="url(#mountainGradient)"/>
+  
+  <!-- Campo agrícola -->
+  <rect x="0" y="150" width="500" height="150" fill="url(#fieldGradient)"/>
+  
+  <!-- Linhas de plantação -->
+  <g stroke="#2E7D32" stroke-width="1.5">
+    <path d="M50,150 L50,300" />
+    <path d="M100,150 L100,300" />
+    <path d="M150,150 L150,300" />
+    <path d="M200,150 L200,300" />
+    <path d="M250,150 L250,300" />
+    <path d="M300,150 L300,300" />
+    <path d="M350,150 L350,300" />
+    <path d="M400,150 L400,300" />
+    <path d="M450,150 L450,300" />
+  </g>
+  
+  <!-- Trator -->
+  <g transform="translate(100, 200) scale(0.5)">
+    <rect x="0" y="0" width="60" height="30" fill="#F44336"/>
+    <rect x="60" y="10" width="40" height="20" fill="#F44336"/>
+    <circle cx="15" cy="35" r="15" fill="#424242"/>
+    <circle cx="15" cy="35" r="7" fill="#9E9E9E"/>
+    <circle cx="85" cy="35" r="20" fill="#424242"/>
+    <circle cx="85" cy="35" r="10" fill="#9E9E9E"/>
+  </g>
+  
+  <!-- Silos -->
+  <g transform="translate(350, 180)">
+    <rect x="0" y="0" width="20" height="50" fill="#E0E0E0" stroke="#BDBDBD"/>
+    <rect x="30" y="0" width="20" height="50" fill="#E0E0E0" stroke="#BDBDBD"/>
+    <rect x="60" y="0" width="20" height="50" fill="#E0E0E0" stroke="#BDBDBD"/>
+    <path d="M0,0 A10,5 0 0,1 20,0" fill="#E0E0E0" stroke="#BDBDBD"/>
+    <path d="M30,0 A10,5 0 0,1 50,0" fill="#E0E0E0" stroke="#BDBDBD"/>
+    <path d="M60,0 A10,5 0 0,1 80,0" fill="#E0E0E0" stroke="#BDBDBD"/>
+  </g>
+  
+  <!-- Plantas de soja -->
+  <g fill="#8BC34A">
+    <g transform="translate(70, 170)">
+      <circle cx="0" cy="0" r="5"/>
+      <path d="M0,0 C5,-5 10,-3 12,0 M0,0 C-5,-5 -10,-3 -12,0 M0,0 C5,-8 3,-12 0,-15 M0,0 C-5,-8 -3,-12 0,-15"/>
+    </g>
+    <g transform="translate(170, 180)">
+      <circle cx="0" cy="0" r="5"/>
+      <path d="M0,0 C5,-5 10,-3 12,0 M0,0 C-5,-5 -10,-3 -12,0 M0,0 C5,-8 3,-12 0,-15 M0,0 C-5,-8 -3,-12 0,-15"/>
+    </g>
+    <g transform="translate(270, 175)">
+      <circle cx="0" cy="0" r="5"/>
+      <path d="M0,0 C5,-5 10,-3 12,0 M0,0 C-5,-5 -10,-3 -12,0 M0,0 C5,-8 3,-12 0,-15 M0,0 C-5,-8 -3,-12 0,-15"/>
+    </g>
+  </g>
+  
+  <!-- Texto -->
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AGRONEGÓCIO MATO GROSSO</text>
+</svg>
