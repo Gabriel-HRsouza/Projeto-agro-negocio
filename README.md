@@ -1,2 +1,1 @@
-# Projeto-agro-negocio
-# Projeto-agro-negocio
+Projeto criado para fim educativo e aprendizado
